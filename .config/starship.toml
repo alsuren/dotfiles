@@ -1,0 +1,36 @@
+# A starship prompt that's similar to the default ubuntu prompt, and doesn't need
+# a nerd font for basic functionality. I will keep updating it as I see tofu.
+
+[username]
+style_user = 'green bold'
+format = '[$user]($style)'
+disabled = false
+show_always = true
+
+[hostname]
+ssh_only = false
+style = 'green bold'
+format = '[@$hostname:]($style)'
+
+[directory]
+truncate_to_repo = false
+truncation_length = 0
+style = 'blue bold'
+
+[gcloud]
+disabled = true
+
+[git_branch]
+format = '[‹$branch›]($style) '
+style = 'red bold'
+
+[git_status]
+# Would be nice if we could set `stashed = ''` and have it ignore stashed changes,
+# but it looks like it only changes the format character for stashed, and still renders
+# the [].
+# See https://github.com/starship/starship/issues/2136 for details.
+format = '([\[$conflicted$deleted$renamed$modified$staged$untracked$ahead_behind\]]($style) )'
+
+[character]
+success_symbol = '\$'
+error_symbol = '[\$](bold red)'
