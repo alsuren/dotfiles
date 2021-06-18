@@ -1,0 +1,167 @@
+{
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "extensions.ignoreRecommendations": false,
+  "files.associations": {
+    ".env": "shellscript",
+    "*.sql": "pgsql"
+  },
+  "[terraform]": {},
+  "editor.codeLens": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.multiCursorModifier": "ctrlCmd",
+  "terraform.indexing": {
+    "enabled": false,
+    "liveIndexing": false,
+    "delay": 500,
+    "exclude": [".terraform/**/*", "**/.terraform/**/*"]
+  },
+  "terraform.languageServer": {
+    "external": true,
+    "args": ["serve"]
+  },
+  "go.formatTool": "goimports",
+  "go.useLanguageServer": true,
+  "git.autofetch": true,
+  "terminal.integrated.allowChords": false,
+  "go.lintOnSave": "off",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "rust-analyzer.updates.askBeforeDownload": false,
+  "editor.formatOnSave": true,
+  "[shellscript]": {
+    "files.eol": "\n",
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "shellformat.effectLanguages": [
+    "shellscript",
+    "dockerfile",
+    "dotenv",
+    "hosts",
+    "jvmoptions",
+    "ignore",
+    "gitignore",
+    "properties",
+    "spring-boot-properties",
+    "azcli"
+  ],
+  "[dockerfile]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "rust-analyzer.inlayHints.typeHints": false,
+  "cSpell.userWords": [
+    "BINTRAY",
+    "Collab",
+    "Compat",
+    "Deque",
+    "Homebrew's",
+    "Kahootz",
+    "Kanban",
+    "NATS",
+    "Peekable",
+    "SEMATEXT",
+    "TEMPDIR",
+    "TMPDIR",
+    "USART",
+    "alsuren",
+    "arrayvec",
+    "bflush",
+    "bluez",
+    "bwrite",
+    "cascadia",
+    "cloudbbq",
+    "clsx",
+    "codegen",
+    "cowboyed",
+    "dapr",
+    "deps",
+    "devs",
+    "displaydoc",
+    "excalidraw",
+    "excalidrawlib",
+    "faas",
+    "fname",
+    "fnhs",
+    "gitattributes",
+    "grafana",
+    "gunicorn",
+    "hoverboard",
+    "hoverkite",
+    "ipynb",
+    "kubernetes",
+    "leds",
+    "libfuzzer",
+    "mkdir",
+    "mutex",
+    "myspace",
+    "nbstripout",
+    "openfaas",
+    "opentelemetry",
+    "petgraph",
+    "pipefail",
+    "plotly",
+    "postgresql",
+    "poweroff",
+    "privs",
+    "quickbuild",
+    "quickinstall",
+    "repos",
+    "reqwest",
+    "resave",
+    "resaving",
+    "roapi",
+    "rustc",
+    "shortcode",
+    "sqlx",
+    "tempfile",
+    "testid",
+    "toolchain",
+    "unmount",
+    "unrecognised",
+    "untar",
+    "urql",
+    "vercel",
+    "viewports",
+    "wascc",
+    "zipkin"
+  ],
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "rust-analyzer.diagnostics.disabled": ["macro-error"],
+  "files.exclude": {
+    "**/node_modules": true
+  },
+  "window.zoomLevel": 2,
+  "docker.showStartPage": false,
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
+  "python.defaultInterpreterPath": "python3",
+  "python.insidersChannel": "weekly",
+  "jupyter.askForKernelRestart": false,
+  "jupyter.alwaysTrustNotebooks": true,
+  "jupyter.codeLenses": " jupyter.debugcell, jupyter.runallcellsabove, jupyter.runcell",
+  "jupyter.collapseCellInputCodeByDefault": false,
+  "jupyter.maxOutputSize": 800,
+  "go.toolsManagement.autoUpdate": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "files.autoSave": "onWindowChange",
+  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.tabs.enabled": true,
+  "notebook.lineNumbers": "on"
+}
