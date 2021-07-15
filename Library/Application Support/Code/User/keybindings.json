@@ -1,0 +1,9 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "alt+backspace",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": { "text": "\u001b\u0008" },
+    "when": "terminalFocus"
+  }
+]
