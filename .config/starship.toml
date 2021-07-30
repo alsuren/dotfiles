@@ -17,9 +17,6 @@ truncate_to_repo = false
 truncation_length = 0
 style = 'blue bold'
 
-[gcloud]
-disabled = true
-
 [git_branch]
 format = '[‹$branch›]($style) '
 style = 'red bold'
