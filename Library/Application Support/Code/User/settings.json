@@ -119,6 +119,7 @@
     "krustlet",
     "kubectl",
     "kubernetes",
+    "leafnode",
     "leds",
     "libfuzzer",
     "mkdir",
