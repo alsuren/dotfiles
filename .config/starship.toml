@@ -31,3 +31,6 @@ format = '([\[$conflicted$deleted$renamed$modified$staged$untracked$ahead_behind
 [character]
 success_symbol = '\$'
 error_symbol = '[\$](bold red)'
+
+[kubernetes]
+disabled = false
