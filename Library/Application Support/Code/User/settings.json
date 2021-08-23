@@ -202,5 +202,13 @@
   },
   "terminal.integrated.env.osx": {
     "SUPER_SECRET_SECRET": "stuff"
+  },
+  "[go]": {
+    "editor.insertSpaces": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": false
+    },
+    "editor.suggest.snippetsPreventQuickSuggestions": false
   }
 }
