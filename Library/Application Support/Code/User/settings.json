@@ -1,31 +1,32 @@
 {
+  // "[toml]": {
+  //   "editor.defaultFormatter": "vscode.json-language-features"
+  // },
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "extensions.ignoreRecommendations": false,
+  "extensions.ignoreRecommendations": true,
   "files.associations": {
     ".env": "shellscript",
     "*.sql": "pgsql",
     "*.conf": "ssh_config"
   },
   "[terraform]": {},
-  "editor.codeLens": false,
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "editor.multiCursorModifier": "ctrlCmd",
   "terraform.indexing": {
     "enabled": false,
     "liveIndexing": false,
     "delay": 500,
-    "exclude": [".terraform/**/*", "**/.terraform/**/*"]
+    "exclude": [
+      ".terraform/**/*",
+      "**/.terraform/**/*"
+    ]
   },
   "terraform.languageServer": {
     "external": true,
-    "args": ["serve"]
+    "args": [
+      "serve"
+    ]
   },
   "go.formatTool": "goimports",
   "go.useLanguageServer": true,
@@ -37,11 +38,6 @@
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "rust-analyzer.updates.askBeforeDownload": false,
-  "editor.formatOnSave": true,
-  "[shellscript]": {
-    "files.eol": "\n",
-    "editor.defaultFormatter": "foxundermoon.shell-format"
-  },
   "shellformat.effectLanguages": [
     "shellscript",
     "dockerfile",
@@ -54,45 +50,31 @@
     "spring-boot-properties",
     "azcli"
   ],
-  "[dockerfile]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "rust-analyzer.inlayHints.typeHints": false,
   "cSpell.userWords": [
-    "BINTRAY",
-    "Collab",
-    "Compat",
-    "Deque",
-    "Homebrew's",
-    "Kahootz",
-    "Kanban",
-    "NATS",
-    "Peekable",
-    "REUSEPORT",
-    "SEMATEXT",
-    "TEMPDIR",
-    "TMPDIR",
-    "USART",
     "actix",
+    "Airbyte",
     "alsuren",
     "arrayvec",
     "azurecr",
     "bazel",
     "bflush",
+    "BINTRAY",
     "bluez",
     "bwrite",
     "cascadia",
     "cloudbbq",
     "clsx",
     "codegen",
+    "Collab",
+    "Compat",
+    "consts",
     "cowboyed",
+    "CRDTs",
     "creds",
     "dapr",
     "datascience",
     "deps",
+    "Deque",
     "devs",
     "displaydoc",
     "entrypoint",
@@ -108,30 +90,43 @@
     "grafana",
     "gunicorn",
     "hdrs",
+    "Homebrew's",
     "hoverboard",
     "hoverkite",
     "httpserver",
     "ibazel",
+    "imageops",
     "ipad",
     "iphone",
     "ipynb",
+    "JDBC",
+    "Kahootz",
+    "Kanban",
+    "keygen",
     "keyvalue",
     "krustlet",
     "kubectl",
     "kubernetes",
+    "Lanczos",
     "leafnode",
     "leds",
     "libfuzzer",
+    "linecap",
+    "linejoin",
     "mkdir",
     "mmacosx",
     "mutex",
     "myspace",
+    "myuser",
+    "NATS",
     "nbstripout",
     "objc",
     "openfaas",
     "opentelemetry",
     "passwordless",
+    "Peekable",
     "petgraph",
+    "pgoutput",
     "pipefail",
     "plotly",
     "postgresql",
@@ -147,22 +142,29 @@
     "reqwest",
     "resave",
     "resaving",
+    "REUSEPORT",
     "roapi",
     "rustc",
+    "SEMATEXT",
     "shortcode",
     "skylib",
     "sqlx",
     "srcs",
     "structopt",
+    "Tably",
+    "TEMPDIR",
     "tempfile",
     "testid",
     "testonly",
+    "tinyjson",
+    "TMPDIR",
     "todos",
     "toolchain",
     "unmount",
     "unrecognised",
     "untar",
     "urql",
+    "USART",
     "vercel",
     "viewports",
     "wapc",
@@ -173,14 +175,13 @@
     "xcrun",
     "zipkin"
   ],
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "rust-analyzer.diagnostics.disabled": ["macro-error"],
+  "rust-analyzer.diagnostics.disabled": [
+    "macro-error"
+  ],
   "files.exclude": {
-    "**/node_modules": true
+    "**/node_modules": true,
+    "vendor/airbyte": true
   },
-  "window.zoomLevel": 2,
   "docker.showStartPage": false,
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter.notebook.ipynb"
@@ -193,13 +194,10 @@
   "jupyter.maxOutputSize": 800,
   "go.toolsManagement.autoUpdate": true,
   "workbench.startupEditor": "newUntitledFile",
-  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.scrollback": 100000,
   "terminal.integrated.tabs.enabled": true,
   "notebook.lineNumbers": "on",
   "redhat.telemetry.enabled": true,
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "terminal.integrated.env.osx": {
     "SUPER_SECRET_SECRET": "stuff"
   },
@@ -210,5 +208,25 @@
       "source.organizeImports": false
     },
     "editor.suggest.snippetsPreventQuickSuggestions": false
-  }
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.defaultProfile.osx": "bash",
+  "editor.codeLens": false,
+  "evenBetterToml.formatter.arrayAutoExpand": false,
+  "rust-analyzer.checkOnSave.allTargets": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "rust-analyzer.inlayHints.typeHints.enable": false,
+  "workbench.colorTheme": "Solarized Light",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "[toml]": {
+    "editor.formatOnSave": false
+  },
+  "[scss]": {
+    "editor.formatOnSave": false,
+    "editor.suggest.insertMode": "replace"
+  },
+  "editor.formatOnSave": true,
+  "window.zoomLevel": 1
 }
