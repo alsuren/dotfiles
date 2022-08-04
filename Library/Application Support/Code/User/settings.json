@@ -193,7 +193,7 @@
   "jupyter.collapseCellInputCodeByDefault": false,
   "jupyter.maxOutputSize": 800,
   "go.toolsManagement.autoUpdate": true,
-  "workbench.startupEditor": "newUntitledFile",
+  "workbench.startupEditor": "none",
   "terminal.integrated.scrollback": 100000,
   "terminal.integrated.tabs.enabled": true,
   "notebook.lineNumbers": "on",
@@ -218,7 +218,7 @@
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "rust-analyzer.inlayHints.typeHints.enable": false,
-  "workbench.colorTheme": "Solarized Light",
+  "workbench.colorTheme": "Default Light+",
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "[toml]": {
     "editor.formatOnSave": false
